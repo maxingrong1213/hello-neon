@@ -1,0 +1,60 @@
+{
+  "stringTable": {
+    "0": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_neon_EXPORTS -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cpufeatures-Release-x86_64": {
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\x86_64\" cpufeatures",
+      "buildType": "release",
+      "toolchain": "1717365802",
+      "abi": "x86_64",
+      "artifactName": "cpufeatures",
+      "files": [
+        {
+          "src": "D:\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\x86_64\\libcpufeatures.a"
+    },
+    "hello-neon-Release-x86_64": {
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\x86_64\" hello-neon",
+      "buildType": "release",
+      "toolchain": "1717365802",
+      "abi": "x86_64",
+      "artifactName": "hello-neon",
+      "files": [
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libhello-neon.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "1717365802": {
+      "cCompilerExecutable": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

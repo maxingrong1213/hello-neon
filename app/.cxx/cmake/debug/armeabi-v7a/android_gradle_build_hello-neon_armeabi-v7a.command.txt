@@ -1,0 +1,7 @@
+Executable : D:\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\Administrator\Desktop\hello-neon\app\.cxx\cmake\debug\armeabi-v7a
+hello-neon
+jvmArgs : 
+

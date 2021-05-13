@@ -1,0 +1,43 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cpufeatures-Release-armeabi-v7a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\armeabi-v7a\" cpufeatures",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\armeabi-v7a\\libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "hello-neon-Release-armeabi-v7a": {
+      "artifactName": "hello-neon",
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\armeabi-v7a\" hello-neon",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libhello-neon.so",
+      "runtimeFiles": [
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavcodec.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavdevice.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavfilter.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavformat.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavutil.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libswresample.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libswscale.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libx264.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libpostproc.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libcutils.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libc++.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libbacktrace.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libbase.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libunwind.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\liblzma.so"
+      ]
+    }
+  }
+}

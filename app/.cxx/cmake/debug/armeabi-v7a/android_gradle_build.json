@@ -1,0 +1,106 @@
+{
+  "stringTable": {
+    "0": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -mcpu=cortex-a7 -mfpu=neon -mfloat-abi=softfp -ffast-math",
+    "3": "-target armv7-none-linux-androideabi16 -gcc-toolchain D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -mcpu=cortex-a7 -mfpu=neon -mfloat-abi=softfp -ffast-math",
+    "4": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cpufeatures-Debug-armeabi-v7a": {
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" cpufeatures",
+      "buildType": "debug",
+      "toolchain": "402067092",
+      "abi": "armeabi-v7a",
+      "artifactName": "cpufeatures",
+      "files": [
+        {
+          "src": "D:\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\libcpufeatures.a"
+    },
+    "hello-neon-Debug-armeabi-v7a": {
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" hello-neon",
+      "buildType": "debug",
+      "toolchain": "402067092",
+      "abi": "armeabi-v7a",
+      "artifactName": "hello-neon",
+      "files": [
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2gray.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2yuv.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon-intrinsics.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\Neon.S",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\Test.S",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhello-neon.so",
+      "runtimeFiles": [
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavcodec.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavdevice.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavfilter.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavformat.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libavutil.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libswresample.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libswscale.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libx264.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libpostproc.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libcutils.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libc++.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libbacktrace.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libbase.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\libunwind.so",
+        "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\libs\\armeabi-v7a\\liblzma.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "402067092": {
+      "cCompilerExecutable": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

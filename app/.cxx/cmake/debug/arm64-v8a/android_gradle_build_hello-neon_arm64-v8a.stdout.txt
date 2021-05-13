@@ -1,0 +1,1 @@
+ninja: Entering directory `C:\Users\Administrator\Desktop\hello-neon\app\.cxx\cmake\debug\arm64-v8a'

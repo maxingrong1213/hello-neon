@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Sdk\\ndk\\21.2.6472646\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-neon-Release-arm64-v8a": {
+      "artifactName": "hello-neon",
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\arm64-v8a\" hello-neon",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libhello-neon.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Release-arm64-v8a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "D:\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\arm64-v8a\" cpufeatures",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\.cxx\\cmake\\release\\arm64-v8a\\libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  }
+}

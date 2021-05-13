@@ -1,0 +1,37 @@
+[
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\hello-neon.dir\\helloneon.cpp.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\hello-neon.dir\\rgb2gray.cpp.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2gray.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2gray.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\hello-neon.dir\\rgb2yuv.cpp.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2yuv.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2yuv.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  -mcpu=cortex-a7 -mfpu=neon -mfloat-abi=softfp -ffast-math -o CMakeFiles\\hello-neon.dir\\helloneon-intrinsics.c.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon-intrinsics.c",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon-intrinsics.c"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe -target armv7-none-linux-androideabi16 -gcc-toolchain D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  -mcpu=cortex-a7 -mfpu=neon -mfloat-abi=softfp -ffast-math -o CMakeFiles\\hello-neon.dir\\Neon.S.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\Neon.S",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\Neon.S"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe -target armv7-none-linux-androideabi16 -gcc-toolchain D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  -mcpu=cortex-a7 -mfpu=neon -mfloat-abi=softfp -ffast-math -o CMakeFiles\\hello-neon.dir\\Test.S.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\Test.S",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\Test.S"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_NEON=1 -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\cpufeatures.dir\\D_\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c.o -c D:\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c",
+  "file": "D:\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c"
+}
+]

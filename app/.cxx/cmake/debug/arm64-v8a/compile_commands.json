@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\hello-neon.dir\\helloneon.cpp.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\helloneon.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\hello-neon.dir\\rgb2gray.cpp.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2gray.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2gray.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_neon_EXPORTS -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -ID:/Sdk/ndk/21.2.6472646/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\hello-neon.dir\\rgb2yuv.cpp.o -c C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2yuv.cpp",
+  "file": "C:\\Users\\Administrator\\Desktop\\hello-neon\\app\\src\\main\\cpp\\rgb2yuv.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/hello-neon/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\Sdk\\ndk\\21.2.6472646\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\cpufeatures.dir\\D_\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c.o -c D:\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c",
+  "file": "D:\\Sdk\\ndk\\21.2.6472646\\sources\\android\\cpufeatures\\cpu-features.c"
+}
+]

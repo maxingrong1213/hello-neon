@@ -1,0 +1,56 @@
+ninja: Entering directory `C:\Users\Administrator\Desktop\hello-neon\app\.cxx\cmake\debug\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/hello-neon.dir/rgb2yuv.cpp.o
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:356:15: warning: 'avcodec_encode_video2' is deprecated [-Wdeprecated-declarations]
+        ret = avcodec_encode_video2(c, &pkt, nullptr, &got_output);
+              ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavcodec/avcodec.h:5385:1: note: 'avcodec_encode_video2' has been explicitly marked deprecated here
+attribute_deprecated
+^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:402:30: warning: format specifies type 'int' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+    LOGD("encode frame:%d\n",frame->pts);
+                       ~~    ^~~~~~~~~~
+                       %lld
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:28:67: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:413:11: warning: 'avcodec_encode_video2' is deprecated [-Wdeprecated-declarations]
+    ret = avcodec_encode_video2(c, &pkt, frame, &got_output);
+          ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavcodec/avcodec.h:5385:1: note: 'avcodec_encode_video2' has been explicitly marked deprecated here
+attribute_deprecated
+^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:441:20: warning: 'avpicture_get_size' is deprecated [-Wdeprecated-declarations]
+    int yuv_size = avpicture_get_size(c->pix_fmt,frame->width, frame->height);
+                   ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavcodec/avcodec.h:5433:1: note: 'avpicture_get_size' has been explicitly marked deprecated here
+attribute_deprecated
+^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:443:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill((AVPicture*)frame, m_yuv_data,c->pix_fmt, frame->width, frame->height);
+    ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavcodec/avcodec.h:5418:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/rgb2yuv.cpp:460:5: warning: 'avcodec_register_all' is deprecated [-Wdeprecated-declarations]
+    avcodec_register_all();
+    ^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavcodec/avcodec.h:4085:1: note: 'avcodec_register_all' has been explicitly marked deprecated here
+attribute_deprecated
+^
+C:/Users/Administrator/Desktop/hello-neon/app/src/main/cpp/../../../libs/include\libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+6 warnings generated.
+[2/2] Linking CXX shared library C:\Users\Administrator\Desktop\hello-neon\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libhello-neon.so
