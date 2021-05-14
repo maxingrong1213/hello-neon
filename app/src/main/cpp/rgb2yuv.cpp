@@ -382,13 +382,13 @@ void encoder_frame(uint8_t *rgb){
 
 
     gettimeofday(&tv1,NULL);
-    RGBtoNV12(m_yuv_data,rgb,720,1080);
+    RGBtoNV12(m_yuv_data,rgb,720,1280);
     gettimeofday(&tv2,NULL);
     LOGD("RGBtoNV12 pure cpu cost time:%ld",(tv2.tv_sec-tv1.tv_sec)*1000000+(tv2.tv_usec-tv1.tv_usec));
 
 
     gettimeofday(&tv1,NULL);
-    rgb888_2_nv12_intrinsic(m_yuv_data,rgb,720,1080);
+    rgb888_2_nv12_intrinsic(m_yuv_data,rgb,720,1280);
     gettimeofday(&tv2,NULL);
     LOGD("rgb888_2_nv12_intrinsic pure cpu cost time:%ld",(tv2.tv_sec-tv1.tv_sec)*1000000+(tv2.tv_usec-tv1.tv_usec));
 
